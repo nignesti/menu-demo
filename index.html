@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trattoria del Ponte — Menu</title>
+<meta name="description" content="Menu della Trattoria del Ponte. Piatti del giorno, prezzi aggiornati, prenotazioni su WhatsApp.">
+<style>
+:root{--ink:#1b1512;--muted:#6b5f57;--line:#e8e0d6;--bg:#fdfbf7;--accent:#8c2f24;--cream:#f6efe4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+header{padding:28px 0 18px;text-align:center;border-bottom:1px solid var(--line)}
+header .sopra{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:ui-serif,Georgia,"Times New Roman",serif;font-size:clamp(28px,7vw,40px);margin:8px 0 6px;letter-spacing:-.5px}
+header p{margin:0;color:var(--muted);font-size:15px}
+nav{position:sticky;top:0;background:rgba(253,251,247,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:8px;overflow-x:auto;padding:10px 20px}
+nav a{white-space:nowrap;font-size:14px;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:7px 14px;background:#fff}
+nav a:active{background:var(--cream)}
+section{padding:26px 0 6px}
+h2{font-family:ui-serif,Georgia,serif;font-size:23px;margin:0 0 4px}
+.sottotitolo{color:var(--muted);font-size:14px;margin:0 0 14px}
+ul{list-style:none;padding:0;margin:0}
+li{display:flex;justify-content:space-between;gap:14px;padding:12px 0;border-bottom:1px dashed var(--line)}
+li:last-child{border-bottom:0}
+.piatto b{display:block;font-weight:600}
+.piatto span{display:block;color:var(--muted);font-size:14.5px;margin-top:2px}
+.prezzo{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.allergeni{background:var(--cream);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--muted);margin:22px 0}
+.allergeni b{color:var(--ink)}
+footer{padding:22px 0 96px;font-size:13px;color:var(--muted);text-align:center}
+.barra{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);padding:10px 16px;display:flex;gap:10px;justify-content:center}
+.barra a{flex:1;max-width:300px;text-align:center;text-decoration:none;padding:13px 16px;border-radius:11px;font-weight:600}
+.barra .wa{background:#1faa59;color:#fff}
+.barra .tel{background:#fff;color:var(--ink);border:1px solid var(--line)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="sopra">Cucina toscana · dal 1987</div>
+  <h1>Trattoria del Ponte</h1>
+  <p>Via del Ponte 14, Firenze · aperto a pranzo e cena</p>
+</header>
+
+<nav><div class="wrap">
+  <a href="#antipasti">Antipasti</a>
+  <a href="#primi">Primi</a>
+  <a href="#secondi">Secondi</a>
+  <a href="#dolci">Dolci</a>
+  <a href="#vini">Vini</a>
+</div></nav>
+
+<div class="wrap">
+
+<section id="antipasti">
+  <h2>Antipasti</h2>
+  <p class="sottotitolo">Per cominciare, da dividere</p>
+  <ul>
+    <li><div class="piatto"><b>Crostini misti</b><span>fegatini, pomodoro, lardo di Colonnata</span></div><span class="prezzo">9 €</span></li>
+    <li><div class="piatto"><b>Pecorino e miele</b><span>pecorino di Pienza, miele di castagno, noci</span></div><span class="prezzo">8 €</span></li>
+    <li><div class="piatto"><b>Trippa alla fiorentina</b><span>cottura lenta, pane tostato</span></div><span class="prezzo">11 €</span></li>
+  </ul>
+</section>
+
+<section id="primi">
+  <h2>Primi</h2>
+  <p class="sottotitolo">Pasta fresca fatta in casa ogni mattina</p>
+  <ul>
+    <li><div class="piatto"><b>Pappardelle al cinghiale</b><span>ragù di cinghiale, rosmarino</span></div><span class="prezzo">14 €</span></li>
+    <li><div class="piatto"><b>Ribollita</b><span>pane, cavolo nero, fagioli cannellini</span></div><span class="prezzo">12 €</span></li>
+    <li><div class="piatto"><b>Tagliatelle ai funghi porcini</b><span>funghi freschi, prezzemolo</span></div><span class="prezzo">15 €</span></li>
+    <li><div class="piatto"><b>Pici all'aglione</b><span>pomodoro, aglio, pecorino</span></div><span class="prezzo">12 €</span></li>
+  </ul>
+</section>
+
+<section id="secondi">
+  <h2>Secondi</h2>
+  <p class="sottotitolo">Carne e pesce del mercato di San Lorenzo</p>
+  <ul>
+    <li><div class="piatto"><b>Bistecca alla fiorentina</b><span>al chilo, per due persone, cottura a scelta</span></div><span class="prezzo">55 €/kg</span></li>
+    <li><div class="piatto"><b>Peposo dell'Impruneta</b><span>manzo, pepe nero, Chianti</span></div><span class="prezzo">18 €</span></li>
+    <li><div class="piatto"><b>Baccalà alla livornese</b><span>pomodoro, olive, capperi</span></div><span class="prezzo">17 €</span></li>
+  </ul>
+</section>
+
+<section id="dolci">
+  <h2>Dolci</h2>
+  <ul>
+    <li><div class="piatto"><b>Cantucci e vinsanto</b><span>fatti in casa</span></div><span class="prezzo">7 €</span></li>
+    <li><div class="piatto"><b>Panna cotta ai frutti rossi</b><span></span></div><span class="prezzo">6 €</span></li>
+  </ul>
+</section>
+
+<section id="vini">
+  <h2>Vini al bicchiere</h2>
+  <ul>
+    <li><div class="piatto"><b>Chianti Classico</b><span>rosso, 14°</span></div><span class="prezzo">5 €</span></li>
+    <li><div class="piatto"><b>Vernaccia di San Gimignano</b><span>bianco, 12,5°</span></div><span class="prezzo">5 €</span></li>
+  </ul>
+</section>
+
+<div class="allergeni">
+  <b>Allergie e intolleranze:</b> chiedete al personale, vi diciamo ingredienti e presenza di glutine, lattosio, frutta a guscio. Le pietanze possono contenere tracce.
+</div>
+
+</div>
+
+<footer>
+  Trattoria del Ponte · Firenze — pagina dimostrativa realizzata come esempio di menu digitale.
+  I piatti e i prezzi sono di fantasia.
+</footer>
+
+<div class="barra">
+  <a class="tel" href="tel:+393202104320">Chiama</a>
+  <a class="wa" href="https://wa.me/393202104320?text=Buongiorno%2C%20vorrei%20prenotare%20un%20tavolo">Prenota su WhatsApp</a>
+</div>
+
+</body>
+</html>
